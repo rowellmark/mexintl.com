@@ -1,0 +1,284 @@
+/*******************************************************
+ *
+ * Mobile styles and other media queries
+ *
+ *******************************************************/
+
+ 
+/* iPad(landscape) | iPad(landscape) | Galaxy Tab 4 (landscape) | Galaxy Tab 3 (landscape) */ 
+@media only screen and (max-width: 1199px) {
+
+} 
+
+/* iPad(portrait) | Galaxy Tab 4(portrait)  */ 
+@media only screen and (max-width: 991px) {
+	
+	.default-title h1,
+	.default-title h2{
+		font-size: 30px;
+	}
+	.header,
+	.floating-contact-info{
+		display: none;
+	}
+
+	#hero .slideshow-logo a img {
+		width: 100%;
+		max-width: 500px;
+		padding: 0 40px;
+	}
+
+	#hero .hp-qc-container{
+		width: 100%;
+	}
+
+	#hero .hp-quick-search .qc-form h3{
+		padding-bottom: 20px;
+	}
+
+	#hero .hp-quick-search .qc-form h3 .qsearch-close{
+		display: none;
+	}
+	#hero .hp-quick-search{
+		position: relative;
+		background: var(--primary);
+		padding: 70px 30px;
+		bottom: 0;
+	}
+		#hero .hp-quick-search .qc-headings{
+			display: none;
+		}
+		#hero .hp-quick-search .qc-form{
+			position: relative;
+			display: block;
+			opacity: 1;
+			visibility: visible;
+			bottom: 0;
+			left: 0;
+		}
+			#hero .hp-quick-search .qc-form .qsearch-row{
+				margin: 0 -5px;
+			}
+				#hero .hp-quick-search .qc-form .qsearch-col{
+					padding: 5px;
+				}
+
+			#hero .hp-quick-search .qc-form .qsearch-row:nth-child(2){
+				flex-flow: row wrap;
+			}
+				#hero .hp-quick-search .qc-form .qsearch-row:nth-child(2) .qsearch-col{
+					width: 100%;
+					padding-top: 0;
+				}
+
+			#hero .hp-quick-search .qc-form .qsearch-col select{
+				padding: 10px;
+			}
+
+			#hero .hp-quick-search .qc-form .qsearch-bttn{
+				width: 100%;
+				padding: 10px 0;
+				justify-content: center;
+			}
+
+				#hero .hp-quick-search .qc-form .qsearch-bttn .qsearch-divider{
+					height: 20px;
+					margin: 0 15px;
+				}
+
+
+	.property-wrap{
+		padding: 5px 0;
+	}
+	.property-wrap .property-headings h2{
+		width: 100%;
+		font-size: 20px;
+		margin: 0;
+	}
+	.property-wrap .property-headings p{
+		display: none;
+	}
+
+		.property-wrap .property-list .property-content h3,
+		.property-wrap .property-list .property-content-hover h3{
+			font-size: 30px;
+		}
+
+		.property-wrap .property-list .property-content p,
+		.property-wrap .property-list .property-content-hover p{
+			font-size: 16px;
+		}
+
+	.property-wrap .property-pagination{
+		flex-flow: column-reverse;
+		align-items: center;
+		padding: 20px 0 40px;
+	}
+		.property-wrap .property-pagination .splide__controls{
+			padding: 10px 0 20px;
+		}
+			.property-wrap .property-pagination .splide__controls button i{
+				font-size: 11px;
+			}
+				.property-wrap .property-pagination .splide__controls button.splide__prev i{
+					margin-right: 25px;
+				}
+				.property-wrap .property-pagination .splide__controls button.splide__next i{
+					margin-left: 25px;
+				}
+
+
+	#hp-welcome-area .welcome-container{
+		flex-flow: column-reverse;
+	}
+		#hp-welcome-area .welcome-image{
+			width: 100%;
+		}
+			#hp-welcome-area .welcome-image h3{
+				font-size: 30px;
+			}
+		#hp-welcome-area .welcome-content{
+			width: 100%;
+			padding: 30px;
+		}
+			#hp-welcome-area .welcome-content h1{
+				font-size: 30px;
+			}
+
+			#hp-welcome-area .welcome-content p{
+				font-size: 14px;
+			}
+
+	#hp-meet-the-team .meet-the-team-container h2{
+		font-size: 30px;
+	}
+	#hp-meet-the-team .team-list a h4{
+		font-size: 30px;
+		padding: 20px 0 0;
+	}
+	#hp-meet-the-team .team-list a p{
+		font-size: 16px;
+	}
+
+	#hp-meet-the-team .default-button{
+		margin: 25px 0;
+	}
+
+	#hp-instagram .insta-headings{
+		flex-flow: column;
+		align-items: center;
+		justify-content: center;
+	}
+		#hp-instagram .insta-headings a {
+			margin: 10px 0;
+		}
+
+
+		#hp-instagram .ig-list{
+			width: calc(100% / 2);
+		}
+
+		#hp-instagram h4{
+			font-size: 40px;
+			padding: 20px 0;
+		}
+
+	.glob-form-wrap{
+		padding: 60px 0;
+	}
+		.glob-form-wrap .glob-form-container{
+			flex-flow: column;
+		}
+			.glob-form-wrap .glob-form-title{
+
+			}
+				.glob-form-wrap .glob-form-title h2{
+					font-size: 30px;
+					text-align: center;
+				}
+					.glob-form-wrap .glob-form-title h2 br{
+						display: none;
+					}
+
+			.glob-form-wrap .glob-form-container .glob-form{
+				width: 100%;
+			}
+
+			.glob-form-wrap .glob-form-container .glob-form .cf-submit{
+				bottom: 10px;
+			}
+	/* The following are used on inner pages. Please edit carefully. */
+
+	.inner {
+	    width: 100%;
+	}
+	#content-sidebar, #content-full {
+	    width: 100%;
+	}	
+	.outer{
+		width: 100%;
+		min-width: 100%;
+	}
+	#content-sidebar #content{
+		width: 100%;
+	}
+	
+	.ip-banner .logo{
+		bottom: 50%;
+		transform: translate(-50%, 50%);
+	}
+
+
+	.footer{
+		padding: 50px 0;
+	}
+		.footer .footer-logo{
+			width: 100%;
+			max-width: 500px;
+			padding: 0 30px;
+		}
+
+
+	.footer .footer-contact-info{
+		padding: 40px 0;
+	}
+	.footer .footer-contact-info a{
+		width: 35px;
+		height: 35px;
+	}
+		.footer .footer-contact-info a i{
+			font-size: 14px;
+		}
+
+	.footer .footer-nav ul{
+		flex-flow: column;
+	}
+
+		.footer .footer-nav ul li{
+			padding: 10px 0;
+		}
+
+		.footer .footer-nav ul li::after{
+			display: none;
+		}
+			.footer .footer-nav ul li a{
+				font-size: 14px;
+			}
+	.footer .copyright-logos{
+		padding: 20px 0;
+	}
+
+} 
+
+/* Galaxy Tab 3(portrait) | Galaxy S5(landscape) */ 
+@media only screen and (max-width: 767px) {
+    .ip-banner .container{
+        width: 100%;
+    }
+}
+
+/* Galaxy S5(portrait) | iPod Touch(landscape) | iPod Touch(portrait) */ 
+@media only screen and (max-width: 480px) {
+
+}
+ 
